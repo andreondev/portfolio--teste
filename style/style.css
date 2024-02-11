@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: black;
+    color: #F6F6F6;
+    
+}
+
+.cabecalho {
+    padding: 2% 0 0 5%;
+
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+    
+
+}
+
+.cabecalho__links {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #22D4FD;
+    text-decoration: none;
+}
+
+
+
+.titulo {
+    color:#22D4FD;
+}
+strong {
+    color:#22D4FD;
+}
+
+.pagina {
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.apresentacao__conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 2.5rem;
+    font-family: 'Chakra Petch', sans-serif;
+    line-height: 35px;
+
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 1.25rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.acesse__minhas__redes {
+    font-family:'Chakra Petch', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+
+}
+
+
+
+.botao__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 15px 0;
+    text-decoration: none;
+    color: #F6F6F6 ;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #22D4FD;
+}
+
+.botao__link:hover {
+    background-color: #272727;
+
+}
+
+.apresentacao__imagem {
+    width: 50%;
+   
+}
+
+
+.barra__de__baixo {
+    padding: 8px;
+    background-color: #22D4FD;
+    color:black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+
+}
+.barra__de__baixo img {
+    width: 24px; 
+    height: auto; 
+    margin-right: 8px; 
+}
+
+@media (max-width:  1200px) {
+    .cabecalho {
+        padding: 10%;
+        
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .pagina {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+     
+    .apresentacao__conteudo {
+        width: auto;
+    }
+
+
+}
